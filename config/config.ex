@@ -1,0 +1,6 @@
+config :crud, Crud.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "abacaxi123",
+  database: "template1",
+  hostname: "localhost",
